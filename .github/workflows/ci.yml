@@ -8,8 +8,6 @@ on:
 
 jobs:
   build:
-    env:
-      NIMBLE_COMMIT: b920dad9ed76c6619be3ec0cfbf0dde6f9e39092
     strategy:
       fail-fast: false
       matrix:
